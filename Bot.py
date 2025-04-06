@@ -3,10 +3,6 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils import executor
 
-TOKEN = "7881405359:AAFTh8D-jgY53YAcS2r_ngdqcIlGgC792ag"
-bot = Bot(token=TOKEN)
-dp = Dispatcher(bot)
-
 def get_gift_keyboard():
     keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
     keyboard.add(KeyboardButton("💝 или 🧸"))
